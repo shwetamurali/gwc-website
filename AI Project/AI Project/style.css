@@ -1,0 +1,102 @@
+
+			.startheading{
+				font-family: "Trebuchet ms" ;
+				text-align:center;
+				color:#000000;
+				margin:0;
+				padding:0;
+				position:absolute;
+				left:10%;
+				top:30%;
+				tranform:translateX(-50%) translateY(-50%);
+				text-shadow:
+				-1px -1px 0 #0139B0,
+				1px -1px 0 #0139B0,
+				-1px 1px 0 #0139B0,
+				1px 1px 0 #0139B0;
+				font-size: 100px;		
+
+			}	
+
+			.button{
+				font-family: "Trebuchet ms" ;
+				text-align:center;
+				vertical-align:middle;
+				position:absolute;
+				left:15%;
+				top:47%;
+				tranform:translateX(-50%) translateY(-50%);
+				border:none;
+				margin: 4px 2px;
+				background-color:#ffffff;
+				border-radius:8px;
+				color:#000000;
+				font-size: 45px;
+
+			}
+			.homebody{
+				background-image: url("robot.jpg");
+				background-size: cover;
+				object-fit:cover;			
+			}	
+
+			#liststyle{
+				background-color: lightblue;
+				border-radius:8px;
+	   			margin-top: 0px;
+			}
+
+			ul {
+	   			list-style-type:none;
+	    		overflow: hidden;
+
+			}	
+
+			li {
+			    float: right;
+			}
+
+			li a{
+			    display: block;
+			    color: grey;
+			    padding: 14px 12px;
+			   	text-decoration: none;
+			   	font-size:20px;
+			}
+			li a:hover {
+			    background-color: #DCDCDC;
+			}
+
+
+
+			.vid{
+				position:relative;
+				top:210px;
+				left:30%;
+				margin: 40;
+			}	
+
+			.h1{
+			font-family: "Impact" ;
+				text-align:left;
+				color:#000000;
+				margin:0;
+				padding:0;
+				position:absolute;
+				font-size: 145px;		
+			}
+			.p{
+			font-family: "Trebuchet" ;
+				text-align:left;
+				top: 33%;
+				color:#000080;
+				margin:0;
+				padding:0;
+				position:absolute;
+				background-color:#C5DDE1;
+				font-size: 20px;	
+				}	
+
+
+
+			

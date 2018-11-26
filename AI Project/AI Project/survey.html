@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+<body class = "homebody">
+     <div id = "liststyle">
+    <ul>
+      <li><a href="Explanation.html">Explanation</a></li>
+      <li><a href="Examples.html">Examples</a></li>
+      <li><a href="MediaNews.html">Media News</a></li>
+      <li><a href = "survey.html">Survey</a></li>
+    </ul>
+    </div>
+  <h3> Do you think AI is beneficial?</h3> 
+<table style="width:100%">
+  <form>
+    Yes
+    <input type="checkbox" id="yes" value="aladdin">
+    <br><br>
+    No
+    <input type="checkbox" id="no" value="bambi">
+    <br><br>
+     
+    <button type="button" id="aButton"> Submit </button>
+  </form>
+  <p id='msg'> Please Check Yes or No </p>
+
+  <script>
+  	var total_button = document.getElementById("aButton");
+
+
+
+total_button.onclick = function() {
+
+
+var mySpan = document.getElementById("msg");
+
+mySpan.innerHTML = "Thanks for submission!";
+
+
+
+
+}
+
+
+</script>
+</body>
